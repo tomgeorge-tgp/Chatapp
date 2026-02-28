@@ -8,7 +8,7 @@ dotenv.config();
 
 const app = express();
 
-setupSwagger(app);
+// setupSwagger(app);
 
 app.use(cors());
 app.use(express.json());
